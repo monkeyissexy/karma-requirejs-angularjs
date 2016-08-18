@@ -8,7 +8,7 @@ git clone git@github.com:monkeyissexy/karma-requirejs-angularjs.git
 
 And then, execute the follow commands,because of the project has `bower.json` and `package.json` already.
 
-> Notice. karma is based on Node.So you should install NodeJs at first.
+> Notice. karma is based on NodeJs.So you should install NodeJs at first.
 
 ```
 cd project_path
