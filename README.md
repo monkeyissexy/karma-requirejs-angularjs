@@ -19,7 +19,7 @@ bower install
 Before you execute above commands, please make sure that you have installed `npm` and `bower` tools first.
 
 
-After this,navigate to project and then you can start karma to run unit testes,the command like this:
+Finally,navigate to project and then you can start karma to run unit testes,the command like this:
 
 ```
 karma start 
