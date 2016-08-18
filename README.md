@@ -6,9 +6,12 @@ At first you can use `git clone` to clone project to your local.
 git clone git@github.com:monkeyissexy/karma-requirejs-angularjs.git
 ```
 
-And then, execute the follow commands,becouse of the project has `bower.json` and `package.json` already.
+And then, execute the follow commands,because of the project has `bower.json` and `package.json` already.
+
+> Notice. karma is based on Node.So you should install NodeJs at first.
 
 ```
+cd project_path
 npm install
 bower install
 ```
