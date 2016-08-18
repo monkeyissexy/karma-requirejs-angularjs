@@ -12,8 +12,9 @@ And then, execute the follow commands,because of the project has `bower.json` an
 
 ```
 cd project_path
-npm install
 bower install
+npm install
+npm intall karma-cli -g
 ```
 
 Before you execute above commands, please make sure that you have installed `npm` and `bower` tools first.
