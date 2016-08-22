@@ -27,6 +27,10 @@ define(['app'], function(app) {
             expect(scope.users[1].name).toBe('lisi');
         });
 
+        it('case3： test function', function(){
+            expect(scope.doSomething('hello')).toBe('hello world!');
+        });
+
     });
 
 });

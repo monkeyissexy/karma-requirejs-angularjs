@@ -13,8 +13,11 @@
     "karma-chrome-launcher": "^1.0.1",
     "karma-coverage": "^1.1.1",
     "karma-jasmine": "^1.0.2",
+    "karma-jenkins-reporter": "0.0.2",
     "karma-mocha-reporter": "^2.1.0",
+    "karma-phantomjs-launcher": "^1.0.1",
     "karma-requirejs": "^1.0.0",
+    "karma-safari-launcher": "^1.0.0",
     "requirejs": "^2.2.0"
   },
   "author": "hongliang.wang",
