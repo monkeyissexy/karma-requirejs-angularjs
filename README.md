@@ -1,5 +1,7 @@
 # karma-requirejs-angularjs
 
+> I have prepared the demo that show you how to karma work with jenkins ci,please checkout `jenkins-ci` branch. In this branch i use phantomjs to run js,and use junit report to generate test report.
+
 At first you can use `git clone` to clone project to your local.
 
 ```
@@ -11,10 +13,12 @@ And then, execute the follow commands,because of the project has `bower.json` an
 > Notice. Karma is based on NodeJs.So, you need install NodeJs at first.
 
 ```
+# just execute once
+npm intall karma-cli -g 
+
 cd project_path
 bower install
 npm install
-npm intall karma-cli -g
 ```
 
 Before you execute above commands, please make sure that you have installed `npm` and `bower` tools first.
