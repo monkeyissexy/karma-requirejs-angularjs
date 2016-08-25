@@ -30,7 +30,7 @@ module.exports = function(config) {
 
     // test results reporter to use
     // possible values: 'dots', 'progress', 'junit', 'growl', 'coverage', 'mocha'
-    reporters: ['mocha', 'coverage'],
+    reporters: ['mocha','junit', 'coverage'],
 
     preprocessors: {
       // source files, that you wanna generate coverage for
@@ -41,8 +41,12 @@ module.exports = function(config) {
 
     // optionally, configure the reporter
     coverageReporter: {
-      type : 'html',
+      type : 'cobertura',
       dir : 'test/coverage/'
+    },
+
+    junitReporter: {
+        outputDir : 'test/testReport/'
     },
 
     // web server port
@@ -70,7 +74,7 @@ module.exports = function(config) {
     // - Safari (only Mac)
     // - PhantomJS
     // - IE (only Windows)
-    browsers: ['Chrome'],
+    browsers: ['PhantomJS'],
     
 
     // If browser does not capture in given timeout [ms], kill it
