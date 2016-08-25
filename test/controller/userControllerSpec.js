@@ -28,7 +28,7 @@ define(['app'], function(app) {
         });
 
         it('case3： test function', function(){
-            expect(scope.doSomething('hello')).toBe('hello world!');
+            expect(scope.doSomething('hello')).toBe('hello world');
         });
 
     });
