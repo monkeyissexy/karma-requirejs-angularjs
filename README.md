@@ -1,6 +1,6 @@
 # karma-requirejs-angularjs
 
-> I have prepared the demo that show you how to karma work with jenkins ci,please checkout `jenkins-ci` branch. In this branch i use phantomjs to run js,and use junit report to generate test report.
+> I have prepared the demo that show how to karma work with jenkins ci,please checkout `jenkins-ci` branch. In this branch i use phantomjs to run js,and use junit report to generate test report.
 
 At first you can use `git clone` to clone project to your local.
 
